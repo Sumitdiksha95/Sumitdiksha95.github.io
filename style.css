@@ -1,0 +1,147 @@
+*{
+    padding: 0 ;
+    margin:  0;
+}
+body{
+height: 100vh ; 
+width:  100vw ;
+padding: 0; 
+margin:  0;
+background: url(image/sumiksha.jpg) center  center fixed no-repeat ;
+background-size: cover ; 
+}
+
+.overlay-container{
+    display: flex;  
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column;
+    height: 100%; 
+    width: 100%; 
+    background: rgba(0,0,0, .85);
+}
+.btn-101{
+    outline: none; 
+    padding: 1rem  1.5rem;
+    font-size: 1.5rem;
+    text-transform: capitalize ;
+    border-radius: 5px;
+    color: #fff ;
+    background-color: rgb(178,30,39);
+    font-family: 'Caladea' ;
+}
+.special-text{
+    color: #fff ;
+    text-transform: capitalize ;
+    text-align: center ;
+    color: rgb(198, 41, 89) ; 
+    font-size: 2.5rem ;
+}
+.countdown-container{
+    color: #fff ;
+    font-size: 10rem;
+    display: none; 
+}
+
+.fa-heart{
+ color: rgba(198, 41, 89, 0.90) ;
+ font-size: 20rem;
+}
+.heart-container{
+    display: none; 
+    text-align: center ;
+    width: 90%; 
+    margin: auto ;
+}
+.love-text{
+    text-align: center; 
+    line-height: 1.5rem;
+    text-transform: capitalize; 
+    color: #fff ;
+    font-family: cursive; 
+}
+
+.tap_me_btn{
+    margin-top: 1rem ;
+    padding: 1rem ;
+    color: #fff ;
+    background-color: rgba(198, 41, 89, 0.70); 
+    color: #fff ;
+    text-transform: capitalize ;
+    border: none;
+    border-radius: 5px;
+}
+.kido-text{
+    display: block ;
+    margin-top: 1rem;
+    color: rgb(250, 75, 87);
+}
+.insert_headphone_container {
+    text-align: center ;
+    display: none;
+}
+.insert_headphone_container > p{
+    color: #fff ;
+    font-size: 1.5rem;
+    text-transform: capitalize ;
+    width: 80%; 
+    margin: auto ;
+    margin-bottom: 1rem ;
+}
+.raise_volume_container
+{
+    text-align: center ;
+    display: none;
+}
+.raise_volume_container > p{
+    color: #fff ;
+    font-size: 1.5rem;
+    text-transform: capitalize ;
+    width: 80%; 
+    margin: auto ;
+    margin-bottom: 1rem ;
+}
+.final-message{
+    text-align: center ;
+    display: none;
+}
+.final-message > p{
+    color: #fff ;
+    font-size: 1.5rem;
+    text-transform: capitalize ;
+    width: 80%; 
+    margin: auto ;
+    margin-bottom: 1rem ;
+}
+.yes-headphone{
+    outline: none; 
+    padding: 1rem 1rem ;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none; 
+}
+.no-headphone{
+    outline: none; 
+    padding: 1rem 1rem ;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;  
+}
+.yes-raise{
+    outline: none; 
+    padding: 1rem 1rem ;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none; 
+}
+.final_tap{
+    outline: none; 
+    padding: 1rem 1rem ;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;  
+}
+
+.overlay-hide{
+    animation: myanim 3000 linear 1 forwards;
+}
